@@ -5,9 +5,196 @@
 body {
     padding: 0;
     margin: 0;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Header Styling */
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+li > a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* Section 1 - Hero Text */
+
+#section1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 10rem 5rem 10rem;
+}
+
+.hero-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-txt > h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-txt > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-txt > button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-img > img {
+    max-width: 400px;
+}
+
+/* Section 2 - Content Cards */
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+#section2 > h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+}
+
+#section2 > div {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.card {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img{
+    height: 150px;
+    width: 150px;
+    border: 0.5rem solid #3882F6;
+    border-radius: 1rem;
+}
+
+.card > p {
+    text-align: center;
+}
+
+/* Section 3 - Quote */
+
+#section3 {
+    background-color: #E5E7EB;
+    padding: 5rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.attribution {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+
+/* Section 4 - Call to Action */
+
+#section4 {
+    padding: 2rem 10rem;
+}
+
+#call {
+    background-color: #3882F6;
+    padding: 2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+#call > button {
+    background-color: #3882F6;
+    border: 0.2rem solid #F9FAF8;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+#call > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+
+#call > div > * {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 2rem;
+    color: #F9FAF8;
+}
+
+
+
 
 
 
